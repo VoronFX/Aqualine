@@ -86,6 +86,22 @@ position: absolute;
 	margin-top: 10px;
 	margin-left: 145px;
 	}	
+#block-content {
+	width: 800px;
+	height: 400px;
+}
+#block-content h3 {
+	font: 25px status-bar;
+	margin-top: 5px;
+	font-style: inherit;
+	color: rgba(16, 198, 227, 0.72);
+}
+#block-content p {
+font: 15px arial;
+color: black;
+margin-top: 10px;
+margin-bottom: 10px;
+}
 
 
 
