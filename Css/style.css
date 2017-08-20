@@ -103,9 +103,9 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 #img-reklama {
-	
+
 }
-.left-box-table {
+.lleft-box-table{
     position: relative;
     overflow: hidden;
     margin: 0;
@@ -118,7 +118,7 @@ margin-bottom: 10px;
     float: left;
     height: 344px;
 }
-.left-box-table li.active1, .left-box-table li.active1:hover {
+.left-box li.active1, .left-box li.active1:hover {
     background: #7fb539 url(/IMG/ico-1.png) 30px 38px no-repeat;
 }
 
