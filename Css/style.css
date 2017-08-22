@@ -130,7 +130,8 @@ position: relative;
 }
 #kachestvo1 span {
 	display: inline-block;
-	position: 30px 30px 30px 30px absolute;
+	position: absolute;
+	padding-top: 400px;
 	
 	}
 	
