@@ -103,17 +103,17 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
-#left-box a  {
+#com1  {
 	font: 20px bold;
 	color: rgba(43, 153, 221, 0.72);
 	text-decoration: none;
 }
 
-#left-box a:hover {
+#a:hover {
 	color: rgba(179, 230, 241, 0.87);
 		font-style: italic;
 }
-.active1 {
+#active1 {
 	background: 40px 40px #9fc7fd;
 	border:1px #93c8fc;
 }
