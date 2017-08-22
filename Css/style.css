@@ -129,10 +129,9 @@ display: inline-block;
 position: relative;
 }
 #kachestvo1 span {
-	
 	display: inline-block;
 	position: absolute;
-	top:-200px;
+	top:0px;
 	left: 0px;
 	}
 	
