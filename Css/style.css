@@ -109,7 +109,7 @@ margin-bottom: 10px;
 	text-decoration: none;
 }
 
-#block-left a:hover {
+#left-box a:hover {
 	color: rgba(179, 230, 241, 0.87);
 		font-style: italic;
 }
