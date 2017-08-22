@@ -128,9 +128,11 @@ margin-bottom: 10px;
 display: inline-block;
 position: relative;
 }
-#kachestvo1 h3 {
+#kachestvo1 span {
 	display: inline-block;
 	position: absolute;
+	top:30px;
+	left: 0px;
 	}
 	
 
