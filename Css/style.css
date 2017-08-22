@@ -107,11 +107,13 @@ margin-bottom: 10px;
 	font: 20px bold;
 	color: rgba(43, 153, 221, 0.72);
 	text-decoration: none;
+	font-style: italic;
 }
 
 #a:hover {
 	color: rgba(179, 230, 241, 0.87);
 		font-style: italic;
+	
 }
 #active1 {
 	background: 220px 120px #9fc7fd;
