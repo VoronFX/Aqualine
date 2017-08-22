@@ -124,6 +124,15 @@ margin-bottom: 10px;
 	border-right: 1px solid rgba(43, 153, 221, 0.72);
 	font-style: italic;
 }
+#kachestvo1 {
+display: inline-block;
+position: relative;
+}
+#kachestvo1 h3 {
+	display: inline-block;
+	position: absolute;
+	}
+	
 
 
 
