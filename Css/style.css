@@ -126,7 +126,7 @@ margin-bottom: 10px;
 }
 #kachestvo1 img {
 display: inline-block;
-position: relative;
+position: absolute;
 }
 #kachestvo1 span {
 	display: inline-block;
