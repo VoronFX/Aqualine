@@ -128,8 +128,7 @@ margin-bottom: 10px;
 	
 }
 #active1 {
-	background: 220px 120px #9fc7fd;
-	border:1px #93c8fc;
+	
 }
 #left-box li {
 	font: 20px serif;
@@ -137,6 +136,8 @@ margin-bottom: 10px;
 	list-style-type: none;
 	border-right: 1px solid rgba(43, 153, 221, 0.72);
 	font-style: italic;
+	background: 220px 120px #9fc7fd;
+	border:1px #93c8fc;
 }
 #kachestvo1 img {
 display: inline-block;
