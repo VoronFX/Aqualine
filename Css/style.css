@@ -131,7 +131,6 @@ margin-bottom: 10px;
 #kachestvo1 {
 width: 220px;
 height: 120px;
-border: 1px solid black; 
 }
 #kachestvo1 img {
 display: inline-block;
@@ -139,6 +138,7 @@ position: absolute;
 }
 #kachestvo1 h3 {
 	font: 22px sans-serif;
+	float: left;
 	display: inline-block;
 	position: absolute;
 	}
