@@ -129,24 +129,25 @@ margin-bottom: 10px;
 	
 }
 #kachestvo1 {
-width: 220px;
-height: 120px;
+width: 800px;
+height: 360px;
 }
 #kachestvo1 img {
+	position: absolute;
 display: inline-block;
-position: absolute;
+
 }
 #kachestvo1 h3 {
-	font: 22px sans-serif;
+	font: 22px bold sans-serif;
 	padding: 5px;
-	display: inline-block;
 	position: absolute;
 	}
 	#kachestvo2 {
-		width: 70px;
-		height: 40px;
+		width: 180px;
+		height: 130px;
 		background: rgba(237, 237, 144, 0.60);
-		float: left;
+		margin-top: 220px;
+		margin-left: 101px;
 		position: absolute;
 		}
 	
