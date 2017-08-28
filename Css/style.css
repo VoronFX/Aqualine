@@ -143,10 +143,10 @@ position: absolute;
 	position: absolute;
 	}
 	#kachestvo2 {
-		width: 70px;
-		height: 40px;
+		width: 160px;
+		height: 90px;
 		background: rgba(237, 237, 144, 0.60);
-		float: left;
+		margin-top: 150px;
 		position: absolute;
 		}
 	
