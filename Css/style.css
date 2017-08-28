@@ -137,7 +137,8 @@ border: 1px solid black;
 display: inline-block;
 position: absolute;
 }
-#kachestvo1 p {
+#kachestvo1 h3 {
+	font: 22px sans-serif;
 	display: inline-block;
 	position: absolute;
 	}
