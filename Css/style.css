@@ -137,16 +137,17 @@ display: inline-block;
 position: absolute;
 }
 #kachestvo1 h3 {
-	font: 22px sans-serif;
+	font: 22px bold sans-serif;
 	padding: 5px;
 	display: inline-block;
 	position: absolute;
 	}
 	#kachestvo2 {
 		width: 160px;
-		height: 90px;
+		height: 110px;
 		background: rgba(237, 237, 144, 0.60);
-		margin-top: 150px;
+		margin-top: 220px;
+		margin-left: 101px;
 		position: absolute;
 		}
 	
