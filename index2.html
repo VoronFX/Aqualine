@@ -1,0 +1,173 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="Helsing; charset=utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+    <!--<link href="Css/style.css" rel="stylesheet" media="all" type="text/css">-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <title>
+        Прачечная Aqua-Line
+    </title>
+
+</head>
+<body>
+    <style>
+        .main-container {
+            width: 65rem;
+        }
+    </style>
+    <div class="container main-container">
+        
+        <div class="hero">
+            <div class="hero-head">
+                <nav class="navbar ">
+                    <!--<div class="navbar-brand">
+                        <a class="navbar-item" href="http://bulma.io">
+                            <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                        </a>
+
+                        <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
+                            <span class="icon" style="color: #333;">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+
+                        <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
+                            <span class="icon" style="color: #55acee;">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+
+                        <div class="navbar-burger burger" data-target="navMenubd-example">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>-->
+
+                    <div id="navMenubd-example" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href="#" onclick="Nav('block1.html');">Главная</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="#" onclick="Nav('o-nas.html');">О нас</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="#" onclick="Nav('cenu.html');">Цены</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="#" onclick="Nav('comercia.html');">Комерческие предложения</a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item" href="#" onclick="Nav('kontacti.html');">Контакты</a>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="columns">
+                    <div class="column">
+                        <img id="image1" src="img/logo1.jpg" width="550px"
+                             height="220px">
+                    </div>
+                    <div class="column is-one-quarter">
+                        <p align="right">
+                            Как с нами связаться?
+                        </p>
+                        <img align="right" src="img/icon_phone.png" width="45" height="45">
+                        <h3 align="right">+38(067) 807 74 00</h3>
+                        <h3 align="right">
+                            +38(050) 283 64 62
+
+                        </h3>
+
+                        <p align="right">Режим работы:</p>
+                        <p align="right">Будние дни с 9:00 до 18:00</p>
+                        <p align="right">Суббота, Воскресенье - выходные</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-body">
+                <div class="columns box">
+                    <div class="column is-one-quarter">
+                        <aside class="menu">
+
+                            <ul class="menu-list">
+                                <li><a href="#" onclick="Nav('kachestvo.html');">КАЧЕСТВО, СЕРВИС, ПРИЯТНЫЕ ЦЕНЫ</a></li>
+                                <li><a href="#" onclick="Nav('organizacion.html');">СТИРКА ОРГАНИЗАЦИЯМ</a></li>
+                                <li><a href="#" onclick="Nav('franshiza.html');">ФРАНЧАЙЗИНГ</a></li>
+                            </ul>
+
+                        </aside>
+                    </div>
+                    <div id="block-centr" class="column">
+                        <img src="img/IMG_0910.jpg" class="image">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-foot is-primary">
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+                </p>
+                <p>
+                    <a class="icon" href="https://github.com/jgthms/bulma">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function Nav(url) {
+            $("#block-centr").load('include/' + url);
+        }
+    </script>
+    <!--<div id="conteiner">
+
+        <div id="block-head">
+            <div id="header-top-block">
+                <ul id="header-top-menu">
+                    <li><a href="#" onclick="Nav('block1.html');">Главная</a></li>
+                    <li><a href="#" onclick="Nav('o-nas.html');">О нас</a></li>
+                    <li><a href="#" onclick="Nav('cenu.html');">Цены</a></li>
+                    <li><a href="#" onclick="Nav('comercia.html');">Комерческие предложения</a></li>
+                    <li><a href="#" onclick="Nav('kontacti.html');">Контакты</a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+        <div id="block-left">
+            <ul id="left-box">
+                <li id="active1"><a id="com1" href="#" onclick="Nav('kachestvo.html');">КАЧЕСТВО, СЕРВИС, ПРИЯТНЫЕ ЦЕНЫ</a></li>
+                <li id="active2"><a id="com2" href="#" onclick="Nav('organizacion.html');">СТИРКА ОРГАНИЗАЦИЯМ</a></li>
+                <li id="active3"><a id="com3" href="#" onclick="Nav('franshiza.html');">ФРАНЧАЙЗИНГ</a></li>
+
+
+            </ul>
+
+        </div>
+
+        <div id="block-centr">
+            <img id="img-reklama" align="right" src="img/IMG_0910.jpg"
+                 width="800px"
+                 height="360px">
+        </div>
+
+        <div id="block-footer">
+        </div>
+
+    </div>-->
+
+
+
+
+
+</body>
+</html>
